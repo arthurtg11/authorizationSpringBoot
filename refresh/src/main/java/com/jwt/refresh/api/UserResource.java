@@ -42,7 +42,7 @@ public class UserResource {
 
     @GetMapping("/users")
     public ResponseEntity<List<User>> getUsers(){
-        return ResponseEntity.ok().body(userService.getUsers());
+        return null;
     }
 
     @PostMapping("/user/save")
